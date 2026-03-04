@@ -82,7 +82,6 @@ def _parse_tool_args(arguments: dict[str, Any]) -> dict[str, Any]:
         if v is not None and v != ""
     }
 
-
 def _convert_content(
     chat_content: (
         conversation.Content
